@@ -21,6 +21,7 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.apache.curator:curator-recipes:5.6.0")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
